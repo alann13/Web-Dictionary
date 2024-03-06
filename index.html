@@ -7,7 +7,24 @@
     <title>Web Dictionary</title>
   </head>
   <body>
-    <h1>Dictionary Web App Starter</h1>
+    <header>
+      <h1>
+        <img src="/images/logo.svg" alt="WebDictionary Logo" />
+      </h1>
+      <menu>
+        <div>font options here</div>
+        <button>theme</button>
+      </menu>
+    </header>
+    <main>
+      <form id="form-sender">
+        <label for="word-input">
+          <input name="word-input" type="text" placeholder="Search for any word..." />
+        </label>
+      </form>
+      <section id="content-section"></section>
+    </main>
+
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

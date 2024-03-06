@@ -1,0 +1,56 @@
+body {
+  --content-width: var(--desktop-content-width);
+  --selected-font: 'Lora', serif;
+
+  font-family: var(--selected-font);
+  margin: 3.625rem auto 0;
+  max-width: var(--content-width);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3.2rem;
+}
+
+header menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+main form {
+  margin-bottom: 8.25rem;
+}
+
+form input {
+  background-color: #f4f4f4;
+  border: none;
+  border-radius: 16px;
+  color: #2d2d2d;
+  font-size: 1.2rem;
+  font-weight: 700;
+  outline: none;
+  padding: 1.2rem 1.5rem;
+  width: 100%;
+}
+
+form input::placeholder {
+  color: #2d2d2d;
+  opacity: 0.25;
+}
+
+form input:focus {
+  border: 1px solid #a445ed;
+}
+
+@media only screen and (max-width: 48rem) {
+  body {
+    margin-inline: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 25rem) {
+  body {
+    margin: 1.75rem 1rem 0;
+  }
+}

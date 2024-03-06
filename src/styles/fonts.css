@@ -1,0 +1,21 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Lora';
+  font-weight: 400;
+  src: url('/fonts/lora//Lora-Regular.ttf');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Lora';
+  font-weight: 700;
+  font-style: italic;
+  src: url('/fonts/lora//Lora-BoldItalic.ttf');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Lora';
+  font-weight: 700;
+  src: url('/fonts/lora//Lora-Bold.ttf');
+}
